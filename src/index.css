@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: Montserrat, sans-serif;
+  --font-pixelify: Pixelify Sans, sans-serif;
+  --font-benzin: Benzin, sans-serif;
+  --font-benzin-semibold: Benzin-semibold, sans-serif;
+  
+  --color-green: #C0FF00;
+  --color-background: #0C0C0C;
+  --color-text: #656565;
+  --color-card: #1B1B1B;
+  --color-card-hover: #151515;
+  --color-stroke: #464646;
+}
+
+::selection {
+  background: #C0FF00;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background-color: #070707;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Benzin';
+    src: url('fonts/Benzin-Medium.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Benzin-semibold';
+    src: url('fonts/Benzin-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
