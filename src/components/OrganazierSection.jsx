@@ -1,7 +1,9 @@
 import React, { useRef } from "react"
-import imageFirst from "/images/image-1.svg"
-import imageSecond from "/images/image-2.svg"
-import imageThird from "/images/image-3.svg"
+import image1 from "/images/image-1.svg"
+import image2 from "/images/image-2.svg"
+import image3 from "/images/image-3.svg"
+import image4 from "/images/image-4.svg"
+import image5 from "/images/image-4.svg"
 import arrow from "/images/arrow.svg"
 
 export const OrganazierSection = () => {
@@ -31,34 +33,29 @@ export const OrganazierSection = () => {
             <div className="max-w-[1240px] mx-auto mt-[35px] flex sm:justify-center overflow-hidden">
                 <div ref={scrollRef} className="flex gap-[14px] overflow-x-auto scroll-smooth  hide-scrollbar">
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
-                        <img src={imageSecond} className="w-full flex-shrink-0" />
+                        <img src={image2} className="w-full flex-shrink-0" />
                         <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Артур Дерр</p>
                         <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Frontend-разработчик</p>
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
-                        <img src={imageFirst} className="w-full flex-shrink-0" />
+                        <img src={image1} className="w-full flex-shrink-0" />
                         <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Кирилл Лоторев</p>
                         <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">FullStack-разработчик</p>
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
-                        <img src={imageThird} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Джон Смитт</p>
-                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Web-разработчик</p>
+                        <img src={image3} className="w-full flex-shrink-0" />
+                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Андрей Чаплыгин</p>
+                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Backend-разработчик</p>
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
-                        <img src={imageThird} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Джон Смитт</p>
-                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Web-разработчик</p>
+                        <img src={image4} className="w-full flex-shrink-0" />
+                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Максим Красников</p>
+                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Backend-разработчик</p>
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
-                        <img src={imageThird} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Джон Смитт</p>
-                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Web-разработчик</p>
-                    </div>
-                    <div className="max-w-[400px] relative flex-shrink-0 w-full">
-                        <img src={imageThird} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Джон Смитт</p>
-                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Web-разработчик</p>
+                        <img src={image5} className="w-full flex-shrink-0" />
+                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Александр Булгаков</p>
+                        <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Backend-разработчик</p>
                     </div>
                 </div>
             </div>
