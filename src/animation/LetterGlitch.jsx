@@ -25,7 +25,7 @@ export default function LetterGlitch({
     gridRef.current = Array.from({ length: rows }, () =>
       Array.from({ length: cols }, () => ({
         char: randomChar(),
-        color: randomColor(), // цвет задаётся один раз
+        color: randomColor(),
       }))
     );
   };
@@ -69,7 +69,7 @@ export default function LetterGlitch({
       const x = Math.floor(Math.random() * colsRef.current);
       const y = Math.floor(Math.random() * rowsRef.current);
       const cell = gridRef.current[y][x];
-      cell.char = randomChar(); // меняем только символ
+      cell.char = randomChar(); 
       drawCell(x, y, cell.char, cell.color);
     }
   };
