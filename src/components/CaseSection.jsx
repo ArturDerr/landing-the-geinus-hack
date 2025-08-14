@@ -12,7 +12,7 @@ export const CaseSection = () => {
                     <div className="flex border-[1px] ml-[18px] mt-[20px] w-[148px] sm:w-[185px] items-center border-green pl-[15px] pr-[15px] h-[30px] rounded-[100px] sm:h-[36px] sm:ml-[25px] sm:pl-[20px] sm:pr-[20px] sm:mt-[25px]">
                         <p className="flex font-montserrat text-center font-medium text-green text-[12px] sm:text-[15px]">2 дня на решение</p>
                     </div>
-                    <p className="font-montserrat font-medium text-[17px] sm:text-[23px] mt-[80px] ml-[20px] text-white sm:mt-[85px] sm:ml-[30px] leading-6 sm:leading-7.5 md:mt-[90px]">Разработайте веб-сайт <span className="text-green">EcoTrack</span> — платформу для отслеживания и снижения личного экологического следа. Пользователь заполняет короткие опросы о своём образе жизни и получает расчёт углеродного следа и рекомендации по его снижению.</p>
+                    <p className="font-montserrat font-medium text-[17px] sm:text-[23px] mt-[80px] ml-[20px] text-white sm:mt-[85px] sm:ml-[30px] leading-6 sm:leading-7.5 md:mt-[90px]">Разработайте <span className="text-green">веб-платформу</span>, которая поможет волонтерам и организациям находить друг друга, координировать мероприятия и отслеживать прогресс. Платформа должна быть удобной, интуитивно понятной и масштабируемой.</p>
                 </div>
             </div>
         </div>

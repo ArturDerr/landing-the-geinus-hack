@@ -3,7 +3,7 @@ import image1 from "/images/image-1.svg"
 import image2 from "/images/image-2.svg"
 import image3 from "/images/image-3.svg"
 import image4 from "/images/image-4.svg"
-import image5 from "/images/image-4.svg"
+import image5 from "/images/image-5.svg"
 import arrow from "/images/arrow.svg"
 
 export const OrganazierSection = () => {
@@ -44,17 +44,17 @@ export const OrganazierSection = () => {
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
                         <img src={image3} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Андрей Чаплыгин</p>
+                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Александр Булгаков</p>
                         <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Backend-разработчик</p>
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
                         <img src={image4} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Максим Красников</p>
+                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Андрей Чаплыгин</p>
                         <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Backend-разработчик</p>
                     </div>
                     <div className="max-w-[400px] relative flex-shrink-0 w-full">
                         <img src={image5} className="w-full flex-shrink-0" />
-                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Александр Булгаков</p>
+                        <p className="absolute bottom-11 font-montserrat font-medium text-[19px] sm:text-[23px] mt-[15px] ml-[20px] text-green sm:ml-[30px]">Максим Красников</p>
                         <p className="absolute bottom-5 font-montserrat font-medium text-[13px] sm:text-[14px] mt-[15px] ml-[20px] text-white sm:ml-[30px]">Backend-разработчик</p>
                     </div>
                 </div>
